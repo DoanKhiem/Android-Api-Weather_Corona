@@ -21,23 +21,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <EditText
+            android:id="@+id/search"
             android:layout_width="700px"
             android:layout_marginRight="10dp"
             android:layout_height="wrap_content"
             android:hint="Nhập quốc gia tìm kiếm"/>
         <Button
+            android:id="@+id/btSearch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tìm kiếm"
+            android:background="@drawable/my_button_bg"
             android:textStyle="bold"/>
     </LinearLayout>
 
     <TextView
+
         android:layout_marginTop="10dp"
         android:layout_gravity="center"
         android:id="@+id/country"
         android:textSize="25dp"
         android:hint="Việt Nam"
+        android:textStyle="bold"
         android:layout_marginLeft="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
@@ -121,7 +126,7 @@
     </LinearLayout>
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <TextView
@@ -162,7 +167,7 @@
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <TextView
